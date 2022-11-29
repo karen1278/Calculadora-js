@@ -2,7 +2,7 @@ var operandoa;
 var operandob;
 var operacion;
 
-
+function init(){
     var cero = document.getElementById("cero");
     var uno = document.getElementById("uno");
     var dos = document.getElementById("dos");
@@ -78,7 +78,7 @@ var operacion;
         operandob = resultado.textContent;
         resolver();
     }
-
+}
 function limpiar(){
     resultado.textContent = "";
 }
